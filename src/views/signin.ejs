@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head') %>
+    <title>Skol Store</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="text-center">
+                <a href="/"><img src="/img/Skol.png" alt="Skol" width="300"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card animated flipInY">
+                        <div class="card-header bg-dark text-white text-center">
+                            <h3>Iniciar sesión</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="" class="form-control" id="" cols="30" rows="10"
+                                        placeholder="Mensaje"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-block">
+                                        Enviar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <%- include('partials/scripts') %>
+</body>
+</html>
